@@ -5,7 +5,7 @@ date:   2016-07-17 22:21:49
 categories: 性能问题
 tags: Java
 ---
-1.首先查找占用CPU最高的java进程，在linux下，可以使用top等命令。，比如查找到的进程ID为1422
+1.首先查找占用CPU最高的java进程，在linux下，可以使用top等命令。比如查找到的进程ID为1422
 
 2，运行命令top -H -p 1422，该命令的-H参数表示显示所有该进程的线程，-p代表进程号，显示如下：
 ![cpu top image](/imgs/20160718/top1.png)
