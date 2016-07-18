@@ -1,0 +1,36 @@
+# Site settings
+title: 星光的blog
+email: yuanxulong198010@163.com
+description: > # this means to ignore newlines until "baseurl:"
+  一个懒人的博客，想起来写点，忙了就忘了。。。
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yuanxulong1.github.io" # the base hostname & protocol for your site
+
+
+# Sidebar filter
+# Choose 'tag' or 'category' as filter in sidebar.
+filter: 'tag'
+
+
+# Social account
+# twitter:  username
+# weibo:    ID
+# github:   username
+# codepen:  username
+# dribbble: username
+
+
+# Comment
+# disqus_shortname: discussion_shortname
+
+
+# Google Analytics
+# google_analytics: tracking_ID
+
+
+# Build settings
+markdown: kramdown
+sass:
+  style: compressed
+gems:
+  - jekyll-sitemap
