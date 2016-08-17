@@ -38,10 +38,17 @@ tags: sublime
 有用的按键定义如下：
 
 ```
-[ctrl+.,ctrl+.]：显示gosublime的功能菜单，显示gosublime的各种常用功能
+[ctrl+.,ctrl+.]：会调出 GoSublime 支持的所有功能，可以直接在这里选择，当然也可以看到每个具体功能对应的快捷键
 [ctrl+.,ctrl+g]：跳转到相应的方法定义，不是很好用
 [ctrl+shift+leftclick]：相当于[ctrl+.,ctrl+g]，跳转到方法定义
 [ctrl+.,ctrl+O]：查看go的包定义
+[ctrl+.,ctrl+p]：可以把你所有可以用的package 全部罗列出来，已经导入的包也可以控制删除
+[ctrl+.,ctrl+i]：跳转到包定义，当你需要引入一个包时，此快键会让你跳转到包引入的位置
+[ctrl+.,ctrl+[ ]：jump back,文件内跳转
+[ctrl+.,ctrl+h]或[ctrl+shift+right-click]：查看当前内容的说明文档
+[ctrl+.,ctrl+e]：检查代码语法错误，不是编译错误
+[ctrl+.,ctrl+d]：显示当前文件大纲
+[ctrl+.,ctrl+n]：新建一个go文件，包含当前文件的包定义，比如从main.go执行的话，会生成一个内容为package main的go文件
 ```
 
 
