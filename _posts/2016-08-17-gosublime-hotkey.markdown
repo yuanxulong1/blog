@@ -11,6 +11,10 @@ tags: sublime
 [ctrl+p]：sublime的go to anywhere，可见其强大之处，该命令可以在当前已经打开文档中跳转（如果打开文件夹，也可以在当前文件夹中跳转），配合:(行号跳转)，@(方法名跳转)，功能相当强大
 [ctrl+g]：跳转到指定的行
 [ctrl+r]：跳转到指定的方法
+[ctrl+w]：关闭当前标签页
+[ctrl+shift+k]：删除当前行
+[ctrl+shift+向上箭头]：向上移动当前行
+[ctrl+shift+向下箭头]：向下移动当前行
 ```
 
 # 2.gosublime默认快捷键记录
